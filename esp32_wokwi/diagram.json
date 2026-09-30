@@ -1,0 +1,155 @@
+{
+    "version": 1,
+    "author": "Pemantauan Baterai - PLTU Skripsi",
+    "editor": "wokwi",
+    "parts": [
+        {
+            "type": "board-esp32-devkit-c-v4",
+            "id": "esp",
+            "top": 76.8,
+            "left": 475.24,
+            "attrs": {}
+        },
+        {
+            "type": "chip-ina219",
+            "id": "ina1",
+            "top": 87.42,
+            "left": 609.6,
+            "attrs": {
+                "voltage": "12.6",
+                "current": "1.2"
+            }
+        },
+        {
+            "type": "wokwi-ds18b20",
+            "id": "temp1",
+            "top": 210.07,
+            "left": 647.28,
+            "attrs": {
+                "temperature": "28"
+            }
+        },
+        {
+            "type": "wokwi-resistor",
+            "id": "r1",
+            "top": 61.55,
+            "left": 499.2,
+            "attrs": {
+                "value": "4700"
+            }
+        },
+        {
+            "type": "wokwi-hc-sr04",
+            "id": "ultrasonic1",
+            "top": -75.3,
+            "left": 447.1,
+            "attrs": {}
+        }
+    ],
+    "connections": [
+        [
+            "esp:TX",
+            "$serialMonitor:RX",
+            "",
+            []
+        ],
+        [
+            "esp:RX",
+            "$serialMonitor:TX",
+            "",
+            []
+        ],
+        [
+            "esp:3V3",
+            "ina1:VCC",
+            "red",
+            [
+                "v-48",
+                "h124.95",
+                "v38.4"
+            ]
+        ],
+        [
+            "esp:GND.1",
+            "ina1:GND",
+            "black",
+            [
+                "h-9.45",
+                "v67.2",
+                "h134.4",
+                "v-192"
+            ]
+        ],
+        [
+            "esp:21",
+            "ina1:SDA",
+            "blue",
+            [
+                "h153.6",
+                "v-48"
+            ]
+        ],
+        [
+            "esp:22",
+            "ina1:SCL",
+            "green",
+            [
+                "h163.2",
+                "v-28.8"
+            ]
+        ],
+        [
+            "esp:3V3",
+            "r1:1",
+            "red",
+            [
+                "v-38.4",
+                "h96.15"
+            ]
+        ],
+        [
+            "esp:4",
+            "r1:2",
+            "yellow",
+            [
+                "h9.6",
+                "v-153.6"
+            ]
+        ],
+        [
+            "esp:4",
+            "temp1:DQ",
+            "yellow",
+            [
+                "h9.6",
+                "v67.2",
+                "h76.8"
+            ]
+        ],
+        [
+            "esp:3V3",
+            "temp1:VCC",
+            "red",
+            [
+                "h-19.05",
+                "v201.6",
+                "h211.2"
+            ]
+        ],
+        [
+            "temp1:GND",
+            "esp:GND.1",
+            "black",
+            [
+                "v38.4",
+                "h-182.4",
+                "v-67.2"
+            ]
+        ],
+        [ "esp:3V3", "ultrasonic1:VCC", "red", [] ],
+        [ "esp:GND.1", "ultrasonic1:GND", "black", [] ],
+        [ "esp:5", "ultrasonic1:TRIG", "green", [] ],
+        [ "esp:18", "ultrasonic1:ECHO", "orange", [] ]
+    ],
+    "dependencies": {}
+}

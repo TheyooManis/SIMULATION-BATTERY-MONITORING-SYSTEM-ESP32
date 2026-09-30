@@ -1,0 +1,19 @@
+[
+  {
+    "id": "OPzS",
+    "jenis": "8 OPzS-ET 800",
+    "tipeUmum": "OPzS Flooded Lead Acid",
+    "karakteristik": "Kapasitas 920 Ah (C10), Float 2.23VPC @ 20°C, Elektrolit 1.24 kg/l",
+    "penggunaan": "Network Power Range (Sistem DC, relay, proteksi)",
+    "capacity_Ah": 920,
+    "nominalVoltage": 2.23,
+    "float_voltage": {
+      "value": 2.23,
+      "temp_ref": 20
+    },
+    "limits": {
+      "min": 2.1,
+      "max": 2.45
+    }
+  }
+]

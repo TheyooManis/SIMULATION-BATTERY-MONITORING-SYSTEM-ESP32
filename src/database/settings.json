@@ -1,0 +1,5 @@
+{
+  "targetVoltage": 16,
+  "dropTolerance": 10,
+  "maxGraphY": 15
+}

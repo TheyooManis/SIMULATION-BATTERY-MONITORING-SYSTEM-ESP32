@@ -1,0 +1,10 @@
+{
+    "name": "INA219",
+    "version": 1,
+    "pins": [
+        "VCC",
+        "GND",
+        "SDA",
+        "SCL"
+    ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "TOKEN": "dc1068cc91b02188",
+    "type": {
+      "id": "OPzS",
+      "jenis": "8 OPzS-ET 800",
+      "tipeUmum": "OPzS Flooded Lead Acid",
+      "karakteristik": "Kapasitas 920 Ah (C10), Float 2.23VPC @ 20°C, Elektrolit 1.24 kg/l",
+      "penggunaan": "Network Power Range (Sistem DC, relay, proteksi)",
+      "nominalVoltage": 2.23
+    },
+    "data": {
+      "cell_id": 1,
+      "voltage": 3.14,
+      "current": 0.04825,
+      "temperature": 27,
+      "lastUpdate": 1782375353029,
+      "waterLevel": 100,
+      "status": "OVERCHARGE"
+    }
+  },
+  {
+    "TOKEN": "c24e5da3e874d518",
+    "type": {
+      "id": "OPzS",
+      "jenis": "8 OPzS-ET 800",
+      "tipeUmum": "OPzS Flooded Lead Acid",
+      "karakteristik": "Kapasitas 920 Ah (C10), Float 2.23VPC @ 20°C, Elektrolit 1.24 kg/l",
+      "penggunaan": "Network Power Range (Sistem DC, relay, proteksi)",
+      "nominalVoltage": 2.23
+    },
+    "data": {
+      "cell_id": 2,
+      "voltage": 3.14,
+      "current": 0.0969,
+      "temperature": 27,
+      "lastUpdate": 1782375337863,
+      "waterLevel": 100,
+      "status": "OVERCHARGE"
+    }
+  },
+  {
+    "TOKEN": "58f7c99e4e866162",
+    "type": {
+      "id": "OPzS",
+      "jenis": "8 OPzS-ET 800",
+      "tipeUmum": "OPzS Flooded Lead Acid",
+      "karakteristik": "Kapasitas 920 Ah (C10), Float 2.23VPC @ 20°C, Elektrolit 1.24 kg/l",
+      "penggunaan": "Network Power Range (Sistem DC, relay, proteksi)",
+      "nominalVoltage": 2.23
+    },
+    "data": {
+      "cell_id": 3,
+      "voltage": 3.14,
+      "current": 0.0755,
+      "temperature": 28,
+      "waterLevel": 100,
+      "status": "OVERCHARGE",
+      "lastUpdate": 1782375340884
+    }
+  },
+  {
+    "TOKEN": "8f7c99e4e8661620",
+    "type": {
+      "id": "OPzS",
+      "jenis": "8 OPzS-ET 800",
+      "tipeUmum": "OPzS Flooded Lead Acid",
+      "karakteristik": "Kapasitas 920 Ah (C10), Float 2.23VPC @ 20°C, Elektrolit 1.24 kg/l",
+      "penggunaan": "Network Power Range (Sistem DC, relay, proteksi)",
+      "nominalVoltage": 2.23
+    },
+    "data": {
+      "cell_id": 4,
+      "voltage": 3.14,
+      "current": 0.04255,
+      "temperature": 27,
+      "lastUpdate": 1782375343919,
+      "waterLevel": 100,
+      "status": "OVERCHARGE"
+    }
+  },
+  {
+    "TOKEN": "f7c99e4e8661620c",
+    "type": {
+      "id": "OPzS",
+      "jenis": "8 OPzS-ET 800",
+      "tipeUmum": "OPzS Flooded Lead Acid",
+      "karakteristik": "Kapasitas 920 Ah (C10), Float 2.23VPC @ 20°C, Elektrolit 1.24 kg/l",
+      "penggunaan": "Network Power Range (Sistem DC, relay, proteksi)",
+      "nominalVoltage": 2.23
+    },
+    "data": {
+      "cell_id": 5,
+      "voltage": 3.15,
+      "current": 0.0381,
+      "temperature": 28,
+      "waterLevel": 100,
+      "lastUpdate": 1782375347010,
+      "status": "OVERCHARGE"
+    }
+  }
+]
